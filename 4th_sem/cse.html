@@ -11,7 +11,6 @@
     <div class="head" style="text-align: center;">
         <h2>Bihar Engineering University</h2>
 
-      
         <u>
             <h3>B.Tech (C.S.E) 4<sup>th</sup> Semester</h3>
         </u>
@@ -43,13 +42,14 @@
 
 
         <br><br>
-    <form action="">
-
+    <form  action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="2dcfccb1-790f-4f67-8be4-84f8eb797a19">
         <label for="files">Here you can upload your own handwritten notes for others</label>
         <br><br>
-        <input type="file" name="files" id="files">
+        <input type="file" name="attachment" id="attachment">
         <br><br>
-        <button type="submit">Upload</button>
+        <input type="hidden" name="redirect" value="/thanks.html">
+        <button class="rlink" type="submit">Upload</button>
       
     </form>
     <br> 
