@@ -1,0 +1,2 @@
+ErrorDocument 404 /Page_Not_Found.html
+RewriteRule ^([^/.]+)/?$ $1.html
