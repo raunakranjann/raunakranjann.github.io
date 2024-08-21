@@ -10,6 +10,33 @@ body {
 
 }
 
+.picture-mine {
+    border-radius: 50%;
+    border-style: double;
+    max-width: 12rem;
+    max-height: 12rem;
+    line-height: 5rem;
+}
+
+.picture-mine:hover {
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    border-style: hidden;
+    max-width: 12rem;
+    box-shadow: 3px 3px 8px #45A29E, -3px -3px 8px #45A29E, -3px 3px 8px #45A29E, 3px -3px 8px #45A29E;
+    transform: scale(1.4);
+    align-items: center;
+    transition-duration: 1.5s;
+
+
+}
+
+
+
+
+
+
 #topnav {
     position: relative;
     margin: 0;
@@ -68,16 +95,16 @@ li a:hover {
 }
 
 .ccard {
-   justify-content: center;
+    justify-content: center;
     align-items: center;
     border: 1px solid #45A29E;
     color: #ffffff;
     font-family: monospace;
-    padding:2rem;
+    padding: 2rem;
     border-radius: 12px;
     line-height: 1.5rem;
     scale: 0.9;
-    
+
 }
 
 
