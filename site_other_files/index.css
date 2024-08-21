@@ -1,0 +1,38 @@
+
+a{
+    text-decoration: none;
+    
+}
+a:hover{
+    
+}
+.rbtn{
+    border-top-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    outline: none;
+    cursor: pointer;
+    border-style:ridge;
+    box-shadow: -2px -2px 2px grey;
+    color: black;
+}
+.rbtn:hover{
+    border-top-left-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    outline: none;
+    cursor: pointer;
+    border-style:ridge;
+    box-shadow: 2px 2px 2px grey;
+    text-shadow: 2px 2px 3px red;
+    color: red;
+}
+.shead{
+    font-size: x-large;
+}
+
+*{
+    margin:none;
+    padding: none;
+    
+}
