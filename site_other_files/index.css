@@ -30,6 +30,11 @@ a:hover{
 .shead{
     font-size: x-large;
 }
+.footer a {
+    text-decoration: none;
+    color: grey;
+    font-size: smaller;
+}
 
 *{
     margin:none;
