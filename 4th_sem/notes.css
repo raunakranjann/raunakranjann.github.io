@@ -1,48 +1,43 @@
-.pyq{
-scale: 0.8;
-padding: 1rem;
+.pyq {
+  scale: 0.8;
+  padding: 1rem;
 }
-.notes{
-    scale: 0.8;
-    padding: 1rem;
-    
+.notes {
+  scale: 0.8;
+  padding: 1rem;
 }
-.notes ul li{
-   list-style: none;
-   display: inline;
-    margin-right: 3rem;
+.notes ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 3rem;
 }
-.pyq ul li{
-    list-style: none;
-    display: inline;
-     margin-right: 2rem;
-     margin-bottom: 2rem;
- }
-.notes ul{
-   
+.pyq ul li {
+  list-style: none;
+  display: inline;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+.notes ul {
 }
 
-.pyq a{
-    text-decoration: none;
+.pyq a {
+  text-decoration: none;
 }
 
-.notes a{
-
-    text-decoration: none;
+.notes a {
+  text-decoration: none;
 }
-.mybtn{
-    text-decoration: none;
-    border: 1px solid;
-    padding:.5rem;
-    border-radius: 12px;
-    font-size: normal;
-
+.mybtn {
+  text-decoration: none;
+  border: 1px solid;
+  padding: 0.5rem;
+  border-radius: 12px;
+  font-size: normal;
 }
 
-.mybtn:hover{
-    transform: scale(1.4);
-    transition-duration: 1s;
-    color: white;
-    background-color: black;
-
+.mybtn:hover {
+  transform: scale(1.4);
+  transition-duration: 1s;
+  color: white;
+  background-color: black;
 }
