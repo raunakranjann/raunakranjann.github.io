@@ -1,18 +1,15 @@
-#key {
-
-}
-
 
 #box span{
   background-color: #00000005;
   box-shadow: 1px 1px 2px black;
-  
+  border-style: inset;
+  font-size: 0.5rem;
 }
 
 #box {
+margin:auto;
 
-
-  border: 2px solid black;
+  border: 0.1rem solid black;
   width: 25rem;
   height: 10rem;
   padding: 0.5rem;
