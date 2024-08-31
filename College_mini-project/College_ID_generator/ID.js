@@ -13,7 +13,7 @@ function generateHTML() {
   const rno = document.getElementById("rno").value;
   const mob = document.getElementById("mob").value;
   const add = document.getElementById("add").value;
-
+  const dob = document.getElementById("dob").value;
   const htmlContent = `
 <!DOCTYPE html>
 <html lang="en">
@@ -172,6 +172,9 @@ function generateHTML() {
             >Father's Name &nbsp;: ${fname}
             <br />
             Roll No. &nbsp;: ${rno} <br />
+            <span class="lft"
+            >D.O.B &nbsp;: ${dob}
+            <br />
             Mob.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${mob} <br />
             Address &nbsp;: ${add}
           </span>
