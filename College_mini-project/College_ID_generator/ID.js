@@ -172,8 +172,7 @@ function generateHTML() {
             >Father's Name &nbsp;: ${fname}
             <br />
             Roll No. &nbsp;: ${rno} <br />
-            <span class="lft"
-            >D.O.B &nbsp;: ${dob}
+            D.O.B &nbsp;: ${dob}
             <br />
             Mob.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : ${mob} <br />
             Address &nbsp;: ${add}
