@@ -1,5 +1,4 @@
 function generateHTML() {
- 
   const name = document.getElementById("name").value;
   const fsession = document.getElementById("fsession").value;
   const tsession = document.getElementById("tsession").value;
@@ -216,5 +215,4 @@ function hide() {
   document.getElementById("myForm").style.display = "none";
   document.getElementById("author").style.display = "none";
   document.getElementById("pre").style.display = "none";
-  
 }
