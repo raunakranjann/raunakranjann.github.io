@@ -19,7 +19,7 @@
   border-radius: 0.4rem;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
-  scale: 1.2;
+  scale: 0.6;
 }
 #box div:nth-of-type(1) {
   display: flex;
