@@ -1,21 +1,21 @@
 #Routine {
-    scale: 0.6;
     display: flex;
     justify-content: center;
     margin-bottom: 0rem;
   }
 
   h5 {
-    font-size: large;
+    font-size:large;
     font-family: cursive;
     color: tomato;
     margin-bottom: 0;
   }
   table {
-    font-size: small;
+    scale: 0.4;
+    font-size:small;
     text-align: center;
     border-style:none;
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 2rem;
     background-image: linear-gradient(to right, dodgerblue, royalblue);
     box-shadow: 8px 8px 16px black, -8px -8px 16px black;
@@ -34,17 +34,18 @@
     font-size: smaller;
   }
   #ta {
-    text-align: center;
+   
     background-image: linear-gradient(to right, dodgerblue, royalblue);
     box-shadow: 2px 2px 4px black, -2px -2px 4px black;
-    max-width: 30rem;
-    padding: 2rem;
+    max-width: 60%;
+    padding: 1rem;
+    font-size: xx-small;
     margin: 0 auto;
     align-items: center;
     text-align: center;
     align-content: center;
     border-radius: 1rem;
-    scale: 0.7;
+    scale: 1;
     color: rgba(30, 143, 255, 0);
     text-shadow: 2px 2px 4px black;
     transition-duration: 0.8s;
