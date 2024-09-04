@@ -25,10 +25,9 @@ body {
     border-style: hidden;
     max-width: 12rem;
     box-shadow: 3px 3px 8px #45A29E, -3px -3px 8px #45A29E, -3px 3px 8px #45A29E, 3px -3px 8px #45A29E;
-    transform: scale(1.4);
+    transform: scale(1.2);
     align-items: center;
-    transition-duration: 1.5s;
-
+    transition-duration: 2s;
 
 }
 
@@ -64,7 +63,7 @@ body {
     display: block;
     float: left;
     height: auto;
-    width: 120px;
+   
 }
 
 #topnav ul li a {
@@ -84,7 +83,7 @@ li a:hover {
     border-style: groove;
     border-radius: 12px;
     color: #45A29E;
-
+    transition-duration: 600ms;
 }
 
 #main {
@@ -166,4 +165,5 @@ footer {
     border-radius: 12px;
     color: #45A29E;
     padding: 4px;
+   
 }
