@@ -139,16 +139,17 @@
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
   transform: translateY(0.05rem);
+  width: 0.8rem;
  
 }
 #box div:nth-of-type(6) span:nth-of-type(10) {
 
-  transform: rotate(180deg) translateX(-5.435rem) translateY(-0.55rem);
+  transform: rotate(180deg) translateX(-5.45rem) translateY(-0.50rem);
   position: absolute;
   height: 0.2rem;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-
+width: 0.8rem;
 
 }
 
