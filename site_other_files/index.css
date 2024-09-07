@@ -1,44 +1,44 @@
-
-a{
-    text-decoration: none;
-    
+a {
+  text-decoration: none;
 }
-a:hover{
-    
+a:hover {
 }
-.rbtn{
-    border-top-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-    outline: none;
-    cursor: pointer;
-    border-style:ridge;
-    box-shadow: -2px -2px 2px grey;
-    color: black;
-    transition-duration: 1s;
+.rbtn {
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  outline: none;
+  cursor: pointer;
+  border-style: ridge;
+  box-shadow: -2px -2px 2px grey;
+  color: black;
+  transition-duration: 1s;
+  padding: 0.5rem;
+  font-size: large;
+  margin: 1rem;
 }
-.rbtn:hover{
-    border-top-left-radius: 0rem;
-    border-bottom-right-radius: 0rem;
-    border-top-right-radius: 1rem;
-    border-bottom-left-radius: 1rem;
-    outline: none;
-    cursor: pointer;
-    border-style:ridge;
-    box-shadow: 2px 2px 2px grey;
-    text-shadow: 2px 2px 3px red;
-    color: red;
+.rbtn:hover {
+  border-top-left-radius: 0rem;
+  border-bottom-right-radius: 0rem;
+  border-top-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  outline: none;
+  cursor: pointer;
+  border-style: ridge;
+  box-shadow: 2px 2px 2px grey;
+  text-shadow: 2px 2px 3px red;
+  color: red;
+  scale: 1.2;
 }
-.shead{
-    font-size: x-large;
+.shead {
+  font-size: x-large;
 }
 .footer a {
-    text-decoration: none;
-    color: grey;
-    font-size: smaller;
+  text-decoration: none;
+  color: grey;
+  font-size: smaller;
 }
 
-*{
-    margin:none;
-    padding: none;
-    
+* {
+  margin: none;
+  padding: none;
 }
