@@ -1,8 +1,14 @@
 a {
   text-decoration: none;
 }
-a:hover {
+
+.container{
+display: flex;
+flex-direction: column;
+align-items: center;
 }
+
+
 .rbtn {
   border-top-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
@@ -12,9 +18,18 @@ a:hover {
   box-shadow: -2px -2px 2px grey;
   color: black;
   transition-duration: 1s;
-  padding: 0.5rem;
+  padding: 0.8rem;
   font-size: large;
   margin: 1rem;
+  
+}
+summary{
+  cursor: pointer;
+}
+.rbtn p{
+  font-size: x-small;
+  max-width: 12rem;
+  text-align: center;
 }
 .rbtn:hover {
   border-top-left-radius: 0rem;
