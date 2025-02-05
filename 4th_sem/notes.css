@@ -117,3 +117,16 @@ summary ul{
 }
 
 
+#qrcode{
+  border-radius: 4px;
+}
+
+#paymentqrcode{
+ padding: auto;
+ 
+}
+#payment{
+  margin: 1rem;
+}
+
+
