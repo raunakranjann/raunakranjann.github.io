@@ -4,7 +4,10 @@
   border-style: inset;
   font-size: 0.2rem;
 }
-
+#box:hover{
+  transform: scale(1.1);
+  transition-duration: 800ms;
+}
 #box {
   margin: auto;
 
