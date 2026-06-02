@@ -1,3 +1,12 @@
+/* This wrapper will center the keyboard and scale the entire thing up uniformly */
+#keyboard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* Ensures it sits nicely in the middle of the page */
+  transform: scale(1.5); /* 👈 INCREASE THIS NUMBER (e.g., 2.0 or 2.5) TO MAKE IT MASSIVE */
+  transform-origin: center center;
+}
 #box span {
   background-color: #00000005;
   box-shadow: 1px 1px 2px black, -1px -1px 2px black;
